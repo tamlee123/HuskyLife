@@ -1,0 +1,179 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Black";
+  color: #000000;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h1,
+h2,
+h4 {
+  font-family: "Montserrat-Bold";
+}
+h6 {
+  padding-top: 1rem;
+}
+p {
+  color: #000000;
+}
+b {
+  color: #3a0ca3;
+  font-family: "Josefin Sans";
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #8c8a93;
+  color: #000000;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* nav bar */
+.colored-nav {
+  color: #f72585;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Download Button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title {
+  background: linear-gradient(100deg, #ffdcc2 30%, #556969 120%);
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+/* title image */
+.title-image {
+  width: 30%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #fff, -10px 0 80px #fca311, 10px 0 80px #72ddf7;
+}
+
+/* Info */
+#info {
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.info-title {
+  font-size: 1.5rem;
+}
+.info-box {
+  align-items: center;
+  padding: 5%;
+}
+.info-text {
+  text-align: left;
+  color: #000000;
+  font-size: 1rem;
+}
+/* icon */
+.icon {
+  color: #da7e37;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #f72585;
+}
+/* tarco */
+#tarco {
+  background: linear-gradient(100deg, #fff1e6 30%, #a1c0c0 120%);
+}
+.tarco-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.tarco-image {
+  width: 35%;
+  border-radius: 50%;
+  box-shadow: 0 0 50px #fff, -10px 0 80px #be0aff, 10px 0 80px #72ddf7;
+  margin: 15px;
+}
+/* Huskies */
+#huskies {
+  background: linear-gradient(100deg, #fff1e6 30%, #a1c0c0 120%);
+  padding-top: 3%;
+}
+.huskies-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Breed */
+#breed {
+  padding: 100px;
+}
+.card-header {
+  background-color: #fad4c0;
+}
+.source {
+  text-decoration: none;
+}
+.breed-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.breed-colmn {
+  padding: 3% 2%;
+}
+
+/* Footer */
+.quote {
+  font-family: "Bubblegum Sans", cursive;
+}
+.social-icon {
+  margin: 30px 30px;
+  color: #da7e37;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 70%;
+  }
+  .tarco-image {
+    width: 50%;
+  }
+}
