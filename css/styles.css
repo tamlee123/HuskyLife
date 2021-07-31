@@ -176,4 +176,8 @@ b {
   .tarco-image {
     width: 50%;
   }
+  body {
+    width: 110%;
+    height: 100%;
+  }
 }
